@@ -90,7 +90,7 @@ Please note that forwarding emails with **rdm-mailhandler.rb** is currently **no
 
 ## Compatibility
 
-The latest version of this plugin is only compatible with Redmine 4.2.x.
+The latest version of this plugin is only compatible with Redmine 5.0.x.
 
 * A version for Redmine 4.0.x is tagged with [v4.0](https://github.com/jfqd/redmine_helpdesk/releases/tag/v4.0 "plugin version for Redmine 4.0.x") and available for [download on github](https://github.com/jfqd/redmine_helpdesk/archive/v4.0.zip "download plugin for Redmine 4.0.x").
 * A version for Redmine 3.0.x and 3.1.x is tagged with [v3.1](https://github.com/jfqd/redmine_helpdesk/releases/tag/v3.1 "plugin version for Redmine 3.0.x and 3.1.x") and available for [download on github](https://github.com/jfqd/redmine_helpdesk/archive/v3.1.zip "download plugin for Redmine 3.0.x and 3.1.x").
@@ -130,8 +130,9 @@ The local database instance has to be stopped with a rake task:
 rake helpdesk:localdb:stop
 ```
 
-## Contribution
+## Contributions
 
+* [gianpaol0](https://github.com/gianpaol0) - italian translation
 * [mgeerdsen](https://github.com/mgeerdsen) - Fix reopening closed issue error
 * [mgeerdsen](https://github.com/mgeerdsen) - Improve de locale
 * [lmorillas](https://github.com/lmorillas) - Fix Error when message hasn't "To:" header
@@ -161,6 +162,7 @@ rake helpdesk:localdb:stop
 * [Niremizov](https://github.com/Niremizov) - Set owner email only if it wasn't set before
 * [ghost](https://github.com/ghost) - Fix attachements truncated in email sent to supportclient
 * [Orchitech Solutions](https://github.com/orchitech) - Added support for reply separator (sponsored by ISIC Global Office)
+* [Andeo AG](https://www.andeo.ch) - Redmine 5.0 compatibility
 
 ## License
 
@@ -168,4 +170,4 @@ This plugin is licensed under the MIT license. See LICENSE-file for details.
 
 ## Copyright
 
-Copyright (c) 2012-2021 qutic development GmbH
+Copyright (c) 2012-2022 qutic development GmbH
